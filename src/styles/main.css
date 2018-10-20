@@ -1,0 +1,121 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    font-family: 'Niramit', sans-serif;
+}
+
+a{
+    color: #7d97ad;
+}
+
+header{
+    border-bottom: 5px solid #7d97ad;
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.big_pic{
+    padding-top: 50px;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.featured{  
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width: 100%;
+    text-align: center;
+    color: #2d3c49;
+    padding-bottom: 50px;
+}
+
+#name{
+    font-weight: 600;
+    font-family: 'Exo', sans-serif;
+    font-size: 55px;
+    color:#2d3c49;
+}
+
+#feat_work{
+    color: #7d97ad;
+}
+
+@media screen and (min-width: 800px){
+    .container{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    header{
+        text-align: right;
+        width:100%;
+        height:auto;
+    }
+
+    #logo{
+        float: left;
+        max-width:100%;
+        max-height:150px;
+        padding-left: 5px;
+    }    
+
+    .feature_pic{
+        width: 100%;
+        height: 250px;
+    }
+    
+    .games{
+        width: 31%;
+    }
+    
+    .writing{
+        width: 31%;
+    }
+    
+    .conceptart{
+        width: 31%;
+    }
+    
+    #nightPic{
+        max-width:100%;
+    }
+}
+@media screen and (min-width:361px) and (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+
+    #logo{
+        max-width:100%;
+        max-height:100px;
+    } 
+
+    header{
+        text-align: center;
+        width:100%;
+        height:auto;
+    }
+
+    #name{
+        font-size: 40px;
+    }
+
+    #nightPic{
+        width:760px;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+
+}
